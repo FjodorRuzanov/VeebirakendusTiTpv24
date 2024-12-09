@@ -1,0 +1,36 @@
+body{
+    font-family: Arial; /*fondi tüpp*/
+    color: darkslateblue; /*teksti värv*/
+}
+h1{
+    border: solid 1px darkslateblue; /*ääris*/
+    padding: 3%; /*vahe tekstist ääreseni*/
+    margin: 10px;
+    border-radius: 50px;
+    width: 80%;
+    background-color: orange;
+}
+h2{
+    border: dotted 3px darkslateblue; /*dashed, outline, double, solid äärid*/
+    padding: 1%; /*vahe tekstist ääreseni*/
+    margin: 10px; /*vahe veebilehe piirist ääriseni*/
+    border-radius: 50px;
+    width: 35%; /*laius*/
+    background-color: orange; /*tausta värv*/
+}
+ul{
+    list-style: circle; /*märkeri tüüp - square, */
+    padding: 5px;
+    background-color: orange;
+}
+ul li{
+    background-color: darkorange;
+    margin: 5px;
+}
+table, td{
+    width: 30%;
+    border: solid 1px darkslateblue;
+    border-collapse: collapse; /*ühine ääris*/
+    text-align: center; /*teksti joondamine keskel*/
+    background-color: darkorange;
+}
