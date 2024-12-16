@@ -1,0 +1,28 @@
+table#lihtne, td{
+    /*htnl failis id=lihtne*/
+    width:60%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamne keskel*/
+    padding: 10px; /*vahe tekstist ääriseni*/
+    /*border-collapse: collapse;*/
+}
+table#keeruline1 td{
+    /*html failis id=keeruline1*/
+    width:50%;
+    border: 1px solid black;
+    text-align: center; /*teksti joodamine keskel*/
+    padding: 2px; /*vahe tekstis ääriseni*/
+    /*border-collapse: collapse;*/
+    background-color: deeppink;
+
+}
+table#keeruline2 td{
+    /*html failis id=keeruline2*/
+    width:60%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskel*/
+    padding: 2px; /*vahe tekstist õääriseni*/
+
+
+
+}

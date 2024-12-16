@@ -4,7 +4,7 @@ header h1{
     margin: 10px;
     border-radius: 60px;
     width: 60%;
-    background-color: steelblue;
+    background-color: mediumorchid;
     letter-spacing: 0.05cm;
     font-variant: small-caps;
 }
@@ -13,7 +13,7 @@ ul{
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: peru;
+    background-color: lightseagreen;
 }
 
 li{
@@ -45,7 +45,7 @@ footer{
 }
 
 section{
-    background-color: peru;
+    background-color: lightseagreen;
     color: darkslateblue;
 }
 
