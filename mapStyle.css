@@ -1,0 +1,47 @@
+div{
+    width:20%;
+    height:20%;
+    border: solid 1pt darkseagreen;
+    position: absolute;
+    left: 12cm;
+    top: 4cm;
+    padding: 1%;
+    border-radius: 15px;
+    font-family: Broadway Condensed, serif;
+    color: mediumpurple;
+    background-color: darkseagreen;
+    text-align: center;
+    font-size: 15pt;
+
+
+
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: mediumpurple;
+
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    font-family: "Corbel Light", cursive;
+    font-variant: small-caps;
+    letter-spacing: 0.1pt;
+    background-color: goldenrod;
+
+}
+
+img{
+    border: solid 1pt darkseagreen;
+    border-radius: 10%;
+    filter: drop-shadow(2px 2px 3px black);
+    
+
+
+}
