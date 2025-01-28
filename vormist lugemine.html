@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormist lugemine</title>
+  <script src="VormScript.js"></script>
+  <link rel="stylesheet" href="VormidStyle.css">
+</head>
+<body>
+<h1>Vormist lugemine JS abil</h1>
+<form action="">
+  <label for="nimi">Sisesta nimi</label>
+  <input type="text" name="nimi" id="nimi">
+  <br>
+  <label for="perekonnanimi">Sisesta perekonnanimi</label>
+  <input type="text" name="perekonnanimi" id="perekonnanimi">
+  <br>
+  <label for="varv">Vali vastuse värv</label>
+  <input type="color" id="varv">
+  <br><br>
+  <!--radio nupp-->
+  <strong>Vali sugu:</strong>
+  <br>
+  <input type="radio" name="sugu" id="mees">
+  <label for="mees">mees</label>
+  <br>
+  <input type="radio" name="sugu" id="naine">
+  <label for="naine">naine</label>
+  <br><br>
+  <label for="post">Sisesta oma email</label>
+  <input type="email" name="post" id="post">
+  <br><br>
+  <label for="telefon">Sisesta oma telefon</label>
+  <input type="tel" name="telefon" id="telefon">
+  <br><br>
+  <label for="synnipaev">Vali oma sünnupäev</label>
+  <input type="date" name="synnipaev" id="synnipaev">
+  <br><br>  
+
+
+
+
+
+
+
+  <div id="vastus"></div>
+  <input type="button" value="Ok" onclick="lugemine2()">
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    font-family: Arial; /*fondi tüpp*/
+    color: darkslateblue; /*teksti värv*/
+}
+h1{
+    border: solid 2px darkslateblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    width: 50%;
+    background-color: darkseagreen;
+}
+input[type=text], input[type=button]{
+    padding: 4px;
+    border: solid 2px darkslateblue;
+    border-radius: 10px;
+    width: 150px;
+}
+input[type=color]{
+    border: solid 1px darkslateblue;
+    border-radius: 5px;
+
+}
+form{
+    width: 45%;
+    text-align: left;
+    margin: 20px;
+    padding: 13px;
+    position: absolute;
+    height: 50%;
+    border-radius: 10px;
+    border: solid 5px darkslateblue;
+    background-color: burlywood;
+
+
+}
